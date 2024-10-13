@@ -13,6 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.8",
     "@babel/eslint-parser": "^7.25.8",
+    "@jest/globals": "^29.7.0",
     "@webpack-cli/generators": "^3.0.7",
     "autoprefixer": "^10.4.20",
     "babel-preset-env": "^1.7.0",
@@ -20,6 +21,7 @@
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.31.0",
+    "globals": "^15.11.0",
     "html-webpack-plugin": "^5.6.0",
     "postcss-loader": "^8.1.1",
     "sass": "^1.79.5",
