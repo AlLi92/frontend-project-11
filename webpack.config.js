@@ -14,9 +14,6 @@ export const module = {
     path: path.resolve(dirname, 'dist'),
   },
   devServer: {
-    static: path.resolve(dirname, 'dist'),
-    port: 8080,
-    hot: true,
     open: true,
     host: 'localhost',
   },
