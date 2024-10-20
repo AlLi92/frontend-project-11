@@ -18,7 +18,7 @@ export const module = {
     host: 'localhost',
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './index.html' }),
+    new HtmlWebpackPlugin({ template: 'index.html' }),
   ],
   module: {
     rules: [
