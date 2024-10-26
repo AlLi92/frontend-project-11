@@ -282,11 +282,11 @@ const handler = async () => {
 };
 
 window.addEventListener('online', () => {
-  hiddeNetworkError(); 
+  hiddeNetworkError();
 });
 
 window.addEventListener('offline', () => {
-  showNetworkError(); 
+  showNetworkError();
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -305,7 +305,6 @@ elements.posts.addEventListener('click', (event) => {
     watchedState.rssForm.data.clickedListElements.add(btnId);
   }
 });
-
 
 function handleNewElements(node) {
   return new Promise((resolve, reject) => {
