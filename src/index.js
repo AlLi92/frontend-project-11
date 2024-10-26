@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import keyBy from 'lodash/keyBy.js';
 import './styles.scss';
 import 'bootstrap';
