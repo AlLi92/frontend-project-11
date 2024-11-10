@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import onChange from 'on-change';
 import axios from 'axios';
 import { string, setLocale } from 'yup';
@@ -147,4 +148,5 @@ export default () => {
       }
     });
   });
+  
 };

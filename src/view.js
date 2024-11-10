@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const renderPosts = (state, div, i18nInstance) => {
   const ul = document.createElement('ul');
   ul.classList.add('list-group', 'border-0', 'rounded-0');
